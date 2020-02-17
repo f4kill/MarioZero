@@ -24,8 +24,9 @@ class MuZero:
         in the "./games" directory.
 
     Example:
-        >>> muzero = MuZero("cartpole")
+        >>> muzero = MuZero("mario")
         >>> muzero.train()
+        >>> muzero.load_model()
         >>> muzero.test()
     """
 
@@ -179,7 +180,7 @@ class MuZero:
 
 if __name__ == "__main__":
     # Use the game and config from the ./games folder
-    muzero = MuZero("cartpole")
+    muzero = MuZero("mario")
 
     ## Train
     muzero.train()
