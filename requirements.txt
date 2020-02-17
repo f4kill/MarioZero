@@ -8,3 +8,5 @@ psutil
 setproctitle
 aiohttp
 grpcio
+gym-super-mario-bros
+nes-py
